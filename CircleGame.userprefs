@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/TouchReco.cs">
+    <Files>
+      <File FileName="Assets/My Scripts/IsSafe.cs" Line="15" Column="1" />
+      <File FileName="Assets/My Scripts/Button.cs" Line="30" Column="27" />
+      <File FileName="Assets/My Scripts/CameraAnchor.cs" Line="39" Column="21" />
+      <File FileName="Assets/My Scripts/CameraFit.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/TouchReco.cs" Line="95" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

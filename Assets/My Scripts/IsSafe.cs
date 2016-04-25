@@ -23,7 +23,7 @@ public class IsSafe : MonoBehaviour
 
 		if (safeArea == null)
 		{
-			this.text.font.material.color = Color.yellow;
+			this.text.font.material.color = koColor;
 			this.text.text = "KO";
 		}
 		else

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Spin : MonoBehaviour {
 
-    public float speed = 50f;
+    public float speed = 80f;
 	
 	// Update is called once per frame
 	void Update ()

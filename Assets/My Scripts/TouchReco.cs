@@ -32,10 +32,10 @@ public class TouchReco : MonoBehaviour
 
 			Ray ray = GetComponent<Camera> ().ScreenPointToRay (Input.mousePosition);
 
-			if (Physics.Raycast (ray, out hit, touchInputMask)) {
+			if (Physics.Raycast (ray, out hit, touchInputMask) && hit.transform.gameObject.name == "TouchZone")
+			{
 				GameObject recipient = hit.transform.gameObject;
-				if (recipient.name != "TouchZone")
-					return;
+
 				touchList.Add (recipient);
 
 				if (Input.GetMouseButtonDown (0))
@@ -88,12 +88,11 @@ public class TouchReco : MonoBehaviour
             {
                 Ray ray = GetComponent<Camera>().ScreenPointToRay(touch.position);
 
-                if (Physics.Raycast(ray, out hit, touchInputMask))
+				if (Physics.Raycast(ray, out hit, touchInputMask) && hit.transform.gameObject.name == "TouchZone")
                 {
                     GameObject recipient = hit.transform.gameObject;
-					if (recipient.name != "TouchZone")
-						return;
-                    touchList.Add(recipient);
+
+					touchList.Add(recipient);
 
                     if (touch.phase == TouchPhase.Began)
 					{
